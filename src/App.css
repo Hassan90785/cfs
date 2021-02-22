@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+a, a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.color-blue {
+  color: blue !important;
+}
+
+.color-gray {
+  color: #a79a9a !important;
+}
+
+header {
+  background-color: black;
+  color: white;
+
+}
+
+.header-border-color {
+  border-color: rgba(190, 182, 182, 0.5) !important;
+}
+
+.carousel-caption {
+  top: 5rem;
+  left: 4rem;
+  bottom: auto;
+}
+
+.scroll-y-hidden {
+  overflow-y: hidden !important;
+}
+
+.font-size {
+  font-size: 1.2rem;
+}
+
+.top-carousel-indicators {
+  left: 7.5rem !important;
+  bottom: 2rem !important;
+  justify-content: left !important;
+}
+
+.more-link {
+  border-bottom: 4px solid #007bff !important;
+}
+
+.img-bottom-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 2rem !important;
+  left: 7.5rem !important;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+}
+
+.img-overlay-black {
+  background: #2d242485;
+  opacity: 0.8;
+}
+.img-overlay-dark {
+  background: #060606eb;
+  opacity: 0.8;
+}
+
+.img-overlay-blue {
+  background: #495ef9;
+  opacity: 0.8;
+}
+
+.img-overlay-dark-blue {
+  background: #0a1664;
+  opacity: 0.8;
+}
+
+.img-overlay-red {
+  background: #dc2a2ade;
+  opacity: 0.8;
+}
+
+.card-text-sizing {
+  font-size: 1.8rem;
+  left: 4rem !important;
+  bottom: 2rem !important;
+  justify-content: left !important;
+  position: absolute;
+  color: #d6d6d6;
+}
+
+.card-text-position {
+  color: white;
+  top: 5rem;
+}
+
+.card-text-position-two {
+  top: 15rem !important;
+}
+
+.card-button-position {
+  left: unset !important;
+  right: 1rem !important;
+  bottom: 2.8rem !important;
+  border: 1px white solid;
+}
+
+.text-border-bottom {
+  border-bottom: 5px solid white;
+  border-radius: 8%;
+}
+
+.font-sm {
+  font-size: 1.4rem;
+}
+
+.font-xs {
+  font-size: 1.2rem;
+}
+
+.card {
+  border: none !important;
+  border-radius: unset !important;
+}
+.card-img, .card-img-bottom {
+  border-bottom-right-radius: unset !important;
+  border-bottom-left-radius: unset !important;
+}
+.card-img, .card-img-top {
+  border-top-left-radius: unset !important;
+  border-top-right-radius: unset !important;
+}
+.logo-sm {
+  width: 11rem;
+  height: 4.7rem;
+}
+
+.footer-sizing {
+  width: fit-content;
+  margin-top: 4.2rem;
+  color: gray;
+}
+.contact{
+  color: #5555ea;
+  font-size: large;
+  border-bottom: 2px solid #5555ea;
+  font-weight: 600;
+}
+.footer-list{
+  border: none !important;
+  line-height: 0.2;
+  color: gray;
+  overflow-y: hidden;
+}
+/*░░░░░░░░░░░░░░░░░░░░░░LeftNavigation scroll bar ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  background-color: #F5F5F5 !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 4px !important;
+  background-color: #F5F5F5 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray !important;
+}
